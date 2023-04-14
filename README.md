@@ -1,3 +1,6 @@
+![Screenshot from 2023-04-14 20-40-02](https://user-images.githubusercontent.com/34966088/232140563-fa25ffc5-3f02-45ad-9214-1a0ac0c493ee.png)
+
+
 ## Introduction
 
 A new Next.js project containing my UI challenges.
