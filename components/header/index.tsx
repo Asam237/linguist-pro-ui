@@ -41,7 +41,7 @@ const poppinsBold = Poppins({ weight: "800", subsets: ["latin"] })
 export const Header = () => {
     const [navbar, setNavbar] = useState(false)
     return (
-        <header className="py-6 mx-4 lg:mx-0">
+        <header className="py-6 mx-4 lg:mx-0 sticky z-50 top-0 left-0 bg-white border-b lg:border-none">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
@@ -74,10 +74,10 @@ export const Header = () => {
                 </div>
             </div>
             <div
-                className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
+                className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? 'block' : 'hidden'
                     }`}
             >
-                <ul className="flex flex-col items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 lg:hidden text-gray-600">
+                <ul className="flex flex-col items-center justify-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0 lg:hidden text-gray-600">
                     {
                         menus.map((item, index) => {
                             return <li key={index} className={`${poppins.className} text-sm border-b pb-1 w-full text-center ml-8`}><Link href={item.link}>{item.title}</Link></li>

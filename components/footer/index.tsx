@@ -22,7 +22,7 @@ const poppins = Poppins({ weight: "400", subsets: ["latin"] })
 const poppinsBold = Poppins({ weight: "800", subsets: ["latin"] })
 export const Footer = () => {
     return (
-        <footer>
+        <footer className="mx-4 lg:mx-0 mt-4 mb-8 lg:mb-0 lg:mt-8">
             <div className={`container mx-auto ${poppins.className}`}>
                 <div className="flex flex-col justify-center items-center lg:justify-between lg:flex-row">
                     <div className="flex flex-col lg:flex-row items-center justify-center">
