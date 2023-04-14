@@ -1,7 +1,3 @@
-
-
-https://user-images.githubusercontent.com/34966088/226965690-303bdc93-773d-44b9-8f1f-698813327183.mp4
-
 ## Introduction
 
 A new Next.js project containing my UI challenges.
