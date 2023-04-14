@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Poppins } from "@next/font/google"
 import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] })
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           <p className={`text-center ${poppins.className} text-white w-full text-base`}>Don&apos;t Just Learn, Ninja Up Your Languages Skills with LinguistPro</p>
         </div>
         <Header />
+        <Footer />
       </main>
     </>
   )
